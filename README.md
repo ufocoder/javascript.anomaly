@@ -3,6 +3,20 @@
 This page created for javascript beginner programmers to show not obvious behaviors, let's call all of them "anomalies"
 
 
+### Assigment anomaly
+
+```
+(function(){
+  var a = b = 3;
+})();
+
+console.log(typeof a);
+// output: undefined
+
+console.log(typeof b);
+// output: number
+```
+
 ### Type Anomaly
 
 
