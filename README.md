@@ -28,6 +28,20 @@ console.log(a[b]);
 // output: 456
 ```
 
+### Delete Anomaly
+
+```
+var x = 1;
+var output = (function(){
+  delete x;
+  return x;
+})();
+
+console.log(output);
+// output: 1
+```
+
+
 ### Type Anomaly
 
 
