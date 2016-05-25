@@ -2,6 +2,15 @@
 
 This page created for javascript beginner programmers to show not obvious behaviors, let's call all of them "anomalies"
 
+* [Assigment Anomaly](#assigment-anomaly)
+* [Delete Anomaly](#delete-anomaly)
+* [Type Anomaly](#type-anomaly)
+* [Compare Anomaly](#compare-anomaly)
+* [Math Anomaly](#math-anomaly)
+* [Variable scope Anomaly](#variable-scope-anomaly)
+* [Function Arguments Anomaly](#function-arguments-anomaly)
+* [toString Anomaly](#tostring-anomaly)
+* [Variable hoisting Anomaly](#variable-hoisting-anomaly)
 
 ### Assigment Anomaly
 
