@@ -171,8 +171,26 @@ console.log("test " + 1 + 1);
 
 console.log("days" * 2);
 // output: NaN
-```
 
+console.log({} + {});
+// output: [object Object][object Object]
+
+console.log({} + []);
+// output: [object Object]
+
+console.log({} + 5);
+// output: [object Object]5
+
+console.log([] + {});
+// output: [object Object]
+
+console.log([] + []);
+// output:
+// will output empty string ''
+
+console.log([] + 5);
+// output: 5
+```
 
 ### Variable scope Anomaly
 
