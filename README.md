@@ -15,6 +15,17 @@ console.log(typeof a);
 
 console.log(typeof b);
 // output: number
+
+
+var a={},
+    b={key:'b'},
+    c={key:'c'};
+
+a[b]=123;
+a[c]=456;
+
+console.log(a[b]);
+// output: 456
 ```
 
 ### Type Anomaly
