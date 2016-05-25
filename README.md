@@ -3,7 +3,7 @@
 This page created for javascript beginner programmers to show not obvious behaviors, let's call all of them "anomalies"
 
 
-### Assigment anomaly
+### Assigment Anomaly
 
 ```
 (function(){
