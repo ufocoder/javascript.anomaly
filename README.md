@@ -7,6 +7,7 @@ This page created for javascript beginner programmers to show not obvious behavi
 * [Type Anomaly](#type-anomaly)
 * [Compare Anomaly](#compare-anomaly)
 * [Math Anomaly](#math-anomaly)
+* [Logic Anomaly](#logic-anomaly)
 * [Variable scope Anomaly](#variable-scope-anomaly)
 * [Function Arguments Anomaly](#function-arguments-anomaly)
 * [toString Anomaly](#tostring-anomaly)
@@ -190,6 +191,22 @@ console.log([] + []);
 
 console.log([] + 5);
 // output: 5
+```
+
+### Logic Anomaly
+
+```
+console.log(0 || 'a');
+// output: a
+
+console.log(0 || undefined);
+// output: undefined
+
+console.log({} && 'a');
+// output: a
+
+console.log(0 && 'a');
+// output: 0
 ```
 
 ### Variable scope Anomaly
