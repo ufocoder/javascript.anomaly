@@ -149,6 +149,9 @@ console.log("abcd" < "abcd");
 
 console.log("abcd" < "abdc");
 // output: true
+
+console.log("123" > "13");
+// output: false
 ```
 
 
