@@ -142,7 +142,7 @@ console.log(new Array(3) === ",,");
 // output: false
 
 console.log("a" > "b");
-// output: true
+// output: false
 
 console.log("abcd" < "abcd");
 // output: false
