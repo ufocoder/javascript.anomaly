@@ -3,6 +3,7 @@
 This page created for javascript beginner programmers to show not obvious behaviors, let's call all of them "anomalies"
 
 * [Assigment Anomaly](#assigment-anomaly)
+* [Reference Anomaly](#reference-anomaly)
 * [Delete Anomaly](#delete-anomaly)
 * [Type Anomaly](#type-anomaly)
 * [Compare Anomaly](#compare-anomaly)
@@ -36,6 +37,17 @@ a[c]=456;
 
 console.log(a[b]);
 // output: 456
+```
+
+### Reference Anomaly
+
+```
+var a = { value: 1 };
+var b = a;
+b.value = 2;
+
+console.log(a.value);
+// output: 2
 ```
 
 ### Delete Anomaly
