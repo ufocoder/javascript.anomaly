@@ -4,6 +4,7 @@ This page created for javascript beginner programmers to show not obvious behavi
 
 * [Assigment Anomaly](#assigment-anomaly)
 * [Reference Anomaly](#reference-anomaly)
+* [Closure Anomaly](#closure-anomaly)
 * [Delete Anomaly](#delete-anomaly)
 * [Type Anomaly](#type-anomaly)
 * [Compare Anomaly](#compare-anomaly)
@@ -50,6 +51,19 @@ console.log(a.value);
 // output: 2
 ```
 
+### Closure Anomaly
+```
+for (var i = 0; i < 3; i++) {
+  setTimeout(function() {
+    console.log(i);
+  }, 100);
+}
+
+// output: 2
+// output: 2
+// output: 2
+```
+
 ### Delete Anomaly
 
 ```
@@ -65,7 +79,6 @@ console.log(output);
 
 
 ### Type Anomaly
-
 
 ```
 console.log(typeof null);
