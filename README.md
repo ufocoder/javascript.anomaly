@@ -59,9 +59,9 @@ for (var i = 0; i < 3; i++) {
   }, 100);
 }
 
-// output: 2
-// output: 2
-// output: 2
+// output: 3
+// output: 3
+// output: 3
 ```
 
 ### Delete Anomaly
