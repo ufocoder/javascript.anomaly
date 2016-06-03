@@ -13,6 +13,7 @@ This page created for javascript beginner programmers to show not obvious behavi
 * [Variable scope Anomaly](#variable-scope-anomaly)
 * [Function Arguments Anomaly](#function-arguments-anomaly)
 * [toString Anomaly](#tostring-anomaly)
+* [New line Anomaly](#new-line-anomaly)
 * [Variable hoisting Anomaly](#variable-hoisting-anomaly)
 
 ### Assigment Anomaly
@@ -294,6 +295,24 @@ console.log(a.toString())
 // output: [object Object]
 ```
 
+### New line Anomaly
+
+```
+function foo() {
+  return "Yeah";
+}
+ 
+function bar() {
+  return 
+    "Yeah";
+}
+
+console.log(foo());
+// output: Yeah
+
+console.log(bar());
+// output:
+```
 
 ### Variable hoisting Anomaly
 
