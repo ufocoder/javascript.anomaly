@@ -202,6 +202,9 @@ console.log("test " + 1 + 1);
 console.log("days" * 2);
 // output: NaN
 
+console.log(null + null);
+// output: 0
+
 console.log({} + {});
 // output: [object Object][object Object]
 
