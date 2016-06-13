@@ -4,6 +4,7 @@ This page created for javascript beginner programmers to show not obvious behavi
 
 * [Assigment Anomaly](#assigment-anomaly)
 * [Reference Anomaly](#reference-anomaly)
+* [New Anomaly](#new-anomaly)
 * [Closure Anomaly](#closure-anomaly)
 * [Delete Anomaly](#delete-anomaly)
 * [Type Anomaly](#type-anomaly)
@@ -50,6 +51,32 @@ b.value = 2;
 
 console.log(a.value);
 // output: 2
+```
+
+### New Anomaly 
+
+```
+var myClass = function() {
+  this.a = 1;
+  this.b = 2;
+};
+
+var myClass2 = function() {
+  this.a = 1;
+  this.b = 2;
+
+  return {
+    a: 2
+  };
+};
+
+var myObject = new myClass();
+var myObject2 = new myClass2();
+
+console.log(typeof myObject.b);
+// output: number
+console.log(typeof myObject2.b);
+// output: undefined
 ```
 
 ### Closure Anomaly
