@@ -6,6 +6,7 @@ This page created for javascript beginner programmers to show not obvious behavi
 * [Reference Anomaly](#reference-anomaly)
 * [New Anomaly](#new-anomaly)
 * [Closure Anomaly](#closure-anomaly)
+* [Context Anomay](#context-anomaly)
 * [Delete Anomaly](#delete-anomaly)
 * [Type Anomaly](#type-anomaly)
 * [Compare Anomaly](#compare-anomaly)
@@ -90,6 +91,21 @@ for (var i = 0; i < 3; i++) {
 // output: 3
 // output: 3
 // output: 3
+```
+
+### Context Anomaly
+
+```
+var message = {
+  content: 'Hello world!',
+  send: function () {
+    console.log(this.content)
+  }
+};
+
+setTimeout(message.send);
+
+// output: undefined
 ```
 
 ### Delete Anomaly
