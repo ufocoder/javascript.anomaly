@@ -374,4 +374,16 @@ bar();
 // output: 10
 ```
 
+```
+var a = 1;
+function b() {
+    a = 10;
+    return;
+    function a() {}
+} 
+b(); 
+console.log(a);
+// output: 1
+```
+
 Note that `anomaly` word has only literary turnover, it's not a technical term.
