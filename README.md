@@ -180,7 +180,7 @@ console.log("abc" === new String("abc"));
 
 console.log(0.1 + 0.2 == 0.3);
 // output: false
-// sum of float values is not equeals obvious float value
+// sum of float values is not equals obvious float value
 
 console.log(NaN != NaN);
 // output: true
