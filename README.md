@@ -266,6 +266,9 @@ console.log([] + []);
 
 console.log([] + 5);
 // output: 5
+
+console.log(++[[]][+[]]+[+[]]);
+// output: "10"
 ```
 
 ### Logic Anomaly
