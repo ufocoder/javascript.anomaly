@@ -2,7 +2,7 @@
 
 This page created for javascript beginner programmers to show not obvious behaviors, let's call all of them "anomalies"
 
-* [Assigment Anomaly](#assigment-anomaly)
+* [Assignment Anomaly](#assignment-anomaly)
 * [Reference Anomaly](#reference-anomaly)
 * [New Anomaly](#new-anomaly)
 * [Closure Anomaly](#closure-anomaly)
@@ -18,7 +18,7 @@ This page created for javascript beginner programmers to show not obvious behavi
 * [New line Anomaly](#new-line-anomaly)
 * [Variable hoisting Anomaly](#variable-hoisting-anomaly)
 
-### Assigment Anomaly
+### Assignment Anomaly
 
 ```
 (function(){
